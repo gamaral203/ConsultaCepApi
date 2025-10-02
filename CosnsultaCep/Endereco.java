@@ -124,4 +124,23 @@ public class Endereco {
     public void setDdd(String ddd) {
         this.ddd = ddd;
     }
+
+    @Override
+    public String toString() {
+        return "Endereco{" +
+                "cep='" + cep + '\'' +
+                ", logradouro='" + logradouro + '\'' +
+                ", complemento='" + complemento + '\'' +
+                ", unidade='" + unidade + '\'' +
+                ", bairro='" + bairro + '\'' +
+                ", localidade='" + localidade + '\'' +
+                ", uf='" + uf + '\'' +
+                ", estado='" + estado + '\'' +
+                ", regiao='" + regiao + '\'' +
+                ", ibge='" + ibge + '\'' +
+                ", gia='" + gia + '\'' +
+                ", ddd='" + ddd + '\'' +
+                ", siafi='" + siafi + '\'' +
+                '}';
+    }
 }
